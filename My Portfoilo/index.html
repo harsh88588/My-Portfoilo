@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <title>Harsh Manoj</title>
+</head>
+<body>
+    <header class="nav-down reachedTop portfolioHeader">
+        <div class="mainMenu">
+            <div class="menuOptions">
+               <label class="lbl" id="lblAbout">About</label>
+               <label class="lbl" id="lblSkills">Skills</label>
+               <label class="lbl" id="lblProjects">Projects</label>
+               <label class="lbl" id="lblContact">Contact</label>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="introContainer">
+            <div class="introWelcome">
+                <p>WELCOME TO MY PORTFOLIO</p>
+                <div class="introAvatar">
+                    <img class="imageAvatar"  src="./Images/Avatar1.jfif" alt="Welcome Avatar" width="200px" height="200px">
+                </div>
+                <div class="introTag">
+                    <span class="introName">Hi, there 👋</span>
+                </div>
+            </div>
+        </div>
+        <div class="aboutContainer" id="aboutSection">
+            <div class="aboutImg" id="aboutSectionImg">
+                <div class="aboutImageDiv">
+                    <img class="aboutPhoto" src="./Images/Avatar.jfif" alt="My Image">
+                </div>
+                <div class="aboutBox">
+                    <h1>About Me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi ipsum delectus nesciunt quo quibusdam eaque temporibus provident perferendis inventore laudantium officiis laboriosam ut error quis dolorum possimus quam, dolores molestias. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur minus qui itaque, consequatur aperiam deserunt tenetur provident, autem, beatae numquam perferendis quam. Doloribus expedita animi officiis tempora itaque placeat accusantium?</p>
+                </div>
+            </div>
+        </div>
+        <div class="socialContainer">
+            <!-- <div class="socialImage">
+                <img src="./Images/icons8-instagram-48.png" alt="Instagram">
+                <img src="./Images/icons8-linkedin-48.png" alt="LinkedIn">
+                <img id="socialGmail" src="./Images/gmail.png" alt="Gmail">
+            </div> -->
+        </div>
+        <div class="quoteContainer">
+            <div class="quoteHeading">
+                <span>Inspiring Quotes.</span>
+            </div>
+            <div class="quoteImageDiv">
+                <img src="./Images/left-arrow.png" alt="Move Left" id="quoteLeftArrow" class="quoteArrow">
+                <img src="./Images/Author Images/Pablo Picasso Biography.jpg" alt="Author Image" class="quoteImage" id="Author">
+                <img src="./Images/right-arrow (1).png" alt="Move Right" id="quoteRightArrow" class="quoteArrow">
+            </div>
+            <div class="quoteLine">
+                <p id="quoteLine">“Inspiration does exist, but it must find you working.”</p>
+                <p id="authorName" class="authorname">-Pablo Picasso</p>
+            </div>
+        </div>
+        <div class="skillsContainer" id="skillsSection">
+            <div class="skillsHeader">
+                <span class="skillsHeadngSpan">Skills</span>
+            </div>
+            <div class="skillsDetails">
+                <div class="skillBoxOne">
+                    <div class="skillTitle">
+                        <h4>HTML</h4>
+                        <div class="skillLine">
+                            <span data-percent="75" class="progressBar">
+                                <span class="tooltip">75%</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="skillTitle">
+                        <h4>css</h4>
+                        <div class="skillLine">
+                            <span data-percent="70" class="progressBar">
+                                <span class="tooltip">70%</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="skillTitle">
+                        <h4>javascript</h4>
+                        <div class="skillLine">
+                            <span data-percent="75" class="progressBar">
+                                <span class="tooltip">60%</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="skillTitle">
+                        <h4>java</h4>
+                        <div class="skillLine">
+                            <span data-percent="50" class="progressBar">
+                                <span class="tooltip">50%</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skillBoxOne">
+                    <div class="skillTitle">
+                        <h4>SAPUI5</h4>
+                        <div class="skillLine">
+                            <span data-percent="80" class="progressBar">
+                                <span class="tooltip">80%</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="skillTitle">
+                        <h4>Fiori</h4>
+                        <div class="skillLine">
+                            <span data-percent="85" class="progressBar">
+                                <span class="tooltip">85%</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="skillTitle">
+                        <h4>Sap abap</h4>
+                        <div class="skillLine">
+                            <span data-percent="60" class="progressBar">
+                                <span class="tooltip">60%</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="skillTitle">
+                        <h4>AWS</h4>
+                        <div class="skillLine">
+                            <span data-percent="50" class="progressBar">
+                                <span class="tooltip">50%</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="projectContainer" id="projectSection">
+            <div class="projectHeader">
+                <div class="projectHeading">
+                    <span class="projectHeadingSpan">My Works and Achievments</span>
+                </div>
+                <div class="projectDetail">
+                    <div class="projectDetailBody">
+                        <img src="./Images/back.png" alt="Move Left" class="projectArrow" id="leftarrow">
+                        <div class="projectDetailParagraph">
+                            <p id="projectPara1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus blanditiis corporis sapiente hic eum accusamus deleniti nulla, vitae dolorem quam consequuntur magnam nihil tempore, provident a. Provident eaque beatae mollitia?</p>
+                            <br>
+                            <p id="projectPara2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sapiente voluptas pariatur placeat debitis assumenda! Voluptate, ipsa voluptas. Blanditiis ullam magni doloremque quae. Provident temporibus vel magnam et facilis corporis?</p>
+                        </div>
+                    </div>
+                    <div class="projectDetailImage">
+                        <div id="projectImageDiv">
+                            <img class="projectImages" id="projectImage" src="./Images/Projects Images/TechiworldProject.png" alt="Project Screenshots">
+                        </div>
+                        <img src="./Images/arrow-right.png" alt="Move Right" class="projectArrow" id="rightarrow">
+                    </div>
+                </div>
+                <div class="projectGitButton">
+                    <p id="projectGitRedirect"></p>
+                    <div id="projectGitButton"></div>
+                </div>
+            </div>
+        </div>
+        <div class="contactContainer" id="contactSection">
+            <div class="contactDetail">
+                <div class="contactHeading">
+                    <H1>Connect Me</H1>
+                </div>
+                <div class="contactIcons">
+                    <img id="socialInsta" src="./Images/icons8-instagram-48.png" alt="Instagram">
+                    <img id="socialLinkedin" src="./Images/icons8-linkedin-48.png" alt="LinkedIn">
+                    <img id="socialGmail" src="./Images/gmail.png" alt="Gmail">
+                </div>
+            </div>
+            <div class="contactFeedback">
+                <input id="feedback" type="text" placeholder="Your Feedback Matters">
+            </div>
+            <div class="contactFeedbackButton">
+                <button id="feedbackBtn" type="button" class="feedbackButton">Send Feedback</button>
+            </div>
+        </div>
+    </section>
+    <footer class="portfolioFooter">
+        <span class="portfolioFooterSpan">Thank You Visit Again</span>
+    </footer>
+    <script src="./skills.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./wordtransition.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
