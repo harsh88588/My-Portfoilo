@@ -1,0 +1,42 @@
+[
+    {
+        "x":"SAP UI5",
+        "Known":"80",
+        "barColors": "#b91d47"
+    },
+    {
+        "x":"Fiori",
+        "Known":"85",
+        "barColors":  "#00aba9"
+    },
+    {
+        "x":"HTML",
+        "Known":"75",
+        "barColors": "#2b5797"
+    },
+    {
+        "x":"CSS",
+        "Known":"70",
+        "barColors": "#e8c3b9"
+    },
+    {
+        "x":"Javascript",
+        "Known":"75",
+        "barColors": "#1e7145"
+    },
+    {
+        "x":"Java",
+        "Known":"50",
+        "barColors":"#2b5797"
+    },
+    {
+        "x":"AWS",
+        "Known":"50",
+        "barColors":"#e8c3b9"
+    },
+    {
+        "x":"SAP Abap",
+        "Known":"60",
+        "barColors":"#1e7145"
+    }
+]

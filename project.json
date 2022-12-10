@@ -1,0 +1,22 @@
+[
+    {
+        "para1":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus blanditiis corporis sapiente hic eum accusamus deleniti nulla, vitae dolorem quam consequuntur magnam nihil tempore, provident a. Provident eaque beatae mollitia?",
+        "para2":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sapiente voluptas pariatur placeat debitis assumenda! Voluptate, ipsa voluptas. Blanditiis ullam magni doloremque quae. Provident temporibus vel magnam et facilis corporis?",
+        "image":"./Images/Projects Images/TechiworldProject.png"
+    },
+    {
+        "para1":"Tictactoe Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus blanditiis corporis sapiente hic eum accusamus deleniti nulla, vitae dolorem quam consequuntur magnam nihil tempore, provident a. Provident eaque beatae mollitia?",
+        "para2":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sapiente voluptas pariatur placeat debitis assumenda! Voluptate, ipsa voluptas. Blanditiis ullam magni doloremque quae. Provident temporibus vel magnam et facilis corporis?",
+        "image":"./Images/Projects Images/Tic Tac Toe.png"
+    },
+    {
+        "para1":"LengthConverter Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus blanditiis corporis sapiente hic eum accusamus deleniti nulla, vitae dolorem quam consequuntur magnam nihil tempore, provident a. Provident eaque beatae mollitia?",
+        "para2":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sapiente voluptas pariatur placeat debitis assumenda! Voluptate, ipsa voluptas. Blanditiis ullam magni doloremque quae. Provident temporibus vel magnam et facilis corporis?",
+        "image":"./Images/Projects Images/LengthConverter.png"
+    },
+    {
+        "para1":"BmiCalculator Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus blanditiis corporis sapiente hic eum accusamus deleniti nulla, vitae dolorem quam consequuntur magnam nihil tempore, provident a. Provident eaque beatae mollitia?",
+        "para2":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sapiente voluptas pariatur placeat debitis assumenda! Voluptate, ipsa voluptas. Blanditiis ullam magni doloremque quae. Provident temporibus vel magnam et facilis corporis?",
+        "image":"./Images/Projects Images/BMI Calculator.png"
+    }
+]

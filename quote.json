@@ -1,0 +1,27 @@
+[
+    {
+        "quote":"“Inspiration does exist, but it must find you working.”",
+        "author":"-Pablo Picasso",
+        "image":"./Images/Author Images/Pablo Picasso Biography.jpg"
+    },
+    {
+        "quote":"“Success is Not Final, Failure is Not Fatal: it is the Courage to Continue that Counts.”",
+        "author":"-Winston S. Churchill",
+        "image":"./Images/Author Images/WinstonS.Churchill.jfif"
+    },
+    {
+        "quote":"“Opportunities don't happen. You create them.”",
+        "author":"-Chris Grosser",
+        "image":"./Images/Author Images/Chris Grosser.jfif"
+    },
+    {
+        "quote":"“I find that the harder I work, the more luck I seem to have.”",
+        "author":"-Thomas Jefferson",
+        "image":"./Images/Author Images/Thomas Jefferson.jpg"
+    },
+    {
+        "quote":"“The way to get started is to quit talking and begin doing.”",
+        "author":"-Walt Disney",
+        "image":"./Images/Author Images/Walt Disney.jfif"
+    }
+]
