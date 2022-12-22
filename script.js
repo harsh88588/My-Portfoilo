@@ -19,6 +19,8 @@ var projectParaTwo = document.getElementById("projectPara2");
 var projectGitPara = document.getElementById("projectGitRedirect");
 var projectGitButton = document.getElementById("projectGitButton");
 var projectDivImage = document.getElementById("projectImageDiv");
+var githubImage = document.getElementById("githubImage");
+var hackerrankImage = document.getElementById("hackerRankImage");
 var quoteArrowCount = 0;
 var projectArrowCount = 0;
 
@@ -134,4 +136,12 @@ projectLeftArrow.addEventListener("click", async function moveProjectLeft(){
         projectParaTwo.innerHTML = name[projectArrowCount].para2;
         projectImage.src = name[projectArrowCount].image;
     }
+})
+
+githubImage.addEventListener("click", function githubUrl(){
+    window.open('https://github.com/harsh88588', "_newtab");
+})
+
+hackerrankImage.addEventListener("click", function hackerrankUrl(){
+    window.open('https://www.hackerrank.com/harsh_jha_405', "_newtab");
 })
