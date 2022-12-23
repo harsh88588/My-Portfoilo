@@ -48,14 +48,15 @@ body{
     font-family: Lucida Handwriting;
 }
 .aboutContainer{
+    padding: 10px;
     /* display:grid;
     grid-template-columns: 1fr 1fr; */
 }
 .aboutImg{
-    margin: 30px;
-    padding: 10px;
-    display:grid;
-    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+    /* padding: 10px; */
+    display:flex;
+    /* grid-template-columns: 1fr 1fr; */
 }
 .aboutPhoto{
     margin-top: 20px;
@@ -70,8 +71,9 @@ body{
     padding: 5px; */
     /* border: 2px solid black; */
     /* text-align: center; */
+    margin: 30px;
     padding-left: 50px;
-    border-left: 1px solid black;
+    /* border-left: 1px solid black; */
     font-family: system-ui;
     font-size: 20px;
     max-height: fit-content;
@@ -130,6 +132,8 @@ body{
 }
 .projectContainer{
     text-align: center;
+    /* justify-items: center; */
+    /* display:flex; */
     padding: 20px;
     background-color: rgb(68, 63, 63);;
     /* display: grid;
@@ -160,11 +164,12 @@ body{
 }
 .projectDetailBody{
     justify-items: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
 }
 .projectDetailParagraph{
-    margin-left: 50px;
+    /* margin-right: 20px; */
+    padding-left: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     font-size: larger;
@@ -173,32 +178,41 @@ body{
 }
 .projectDetail{
     justify-items: center;
-    margin: 30px;
+    /* margin: 30px; */
+    padding: 30px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.projectImagePara{
     display: grid; 
     grid-template-columns: 1fr 1fr;
 }
 .projectImages{
+    margin-top: 12px;
     height: 300px;
     width: 400px;
     border: 1px solid azure;
 }
 .projectDetailImage{
     justify-items: center;
-    margin-left: 100px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* margin-left: 100px; */
+    /* padding-left: 100px; */
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
 }
 .projectArrow{
     cursor: pointer;
     margin-top: 100px;
-    margin-left: 50px;
+    padding: 40px;
+    /* margin-left: 50px; */
+    /* margin-right: 50px;   */
     height: 50px;
     width: 50px;
 }
 .projectArrow:hover{
     transform: scale(1.3);
     border-radius: 50%;
-    border: 1px solid azure;
+    /* border: 1px solid azure; */
 }
 .projectFooter{
     text-align: center;
@@ -357,6 +371,7 @@ body{
     background-color: rgb(53, 51, 51);
     
 }
+
 @media (max-width:600px) {
     body{
         display: inline;
@@ -378,6 +393,10 @@ body{
         margin: 10px;
         padding: 10px;
         border-top: 2px solid black;
+    }
+    .projectImagePara{
+        display: inline; 
+        /* grid-template-columns: 1fr 1fr; */
     }
    
 }
